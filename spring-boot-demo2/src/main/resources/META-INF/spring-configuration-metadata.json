@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "user.username",
+    "description": "用户名",
+    "defaultValue": ["lengleng", "lengleng2"]
+  },
+  {
+    "name": "user.password",
+    "description" : "密码",
+    "defaultValue": "123456"
+  },
+  {
+    "name": "user.age",
+    "description":"年龄",
+    "defaultValue": 26
+  }
+]}

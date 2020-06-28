@@ -1,0 +1,25 @@
+server:
+  port: 8090
+
+# 暴露所有的 actuator
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+# 指定 admin server 地址
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+  application:
+    name: demo-client
+
+# 指定日志文件生成位置
+logging:
+  file:
+    name: 'logs/app.log'

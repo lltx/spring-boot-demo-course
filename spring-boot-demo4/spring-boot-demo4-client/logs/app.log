@@ -1,0 +1,607 @@
+2020-06-27 15:03:13.397  INFO 24015 --- [main] c.p.s.a.SpringBootDemo4ClientApplication : Starting SpringBootDemo4ClientApplication on lengleng with PID 24015 (/Users/lengleng/Downloads/spring-boot-demo4-client/target/classes started by lengleng in /Users/lengleng/Downloads/spring-boot-demo4-client)
+2020-06-27 15:03:13.400  INFO 24015 --- [main] c.p.s.a.SpringBootDemo4ClientApplication : No active profile set, falling back to default profiles: default
+2020-06-27 15:03:14.637  INFO 24015 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-06-27 15:03:14.648  INFO 24015 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-27 15:03:14.648  INFO 24015 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-27 15:03:14.713  INFO 24015 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-27 15:03:14.714  INFO 24015 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1275 ms
+2020-06-27 15:03:14.934  INFO 24015 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-27 15:03:15.231  INFO 24015 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-06-27 15:03:15.279  INFO 24015 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-27 15:03:15.336  INFO 24015 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-06-27 15:03:15.351  INFO 24015 --- [main] c.p.s.a.SpringBootDemo4ClientApplication : Started SpringBootDemo4ClientApplication in 2.417 seconds (JVM running for 3.174)
+2020-06-27 15:03:15.542  INFO 24015 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-27 15:03:15.544  INFO 24015 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-27 15:03:15.558  INFO 24015 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-06-27 15:03:15.595  INFO 24015 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 1a257d42f2b7
+2020-06-27 15:03:26.563 DEBUG 24015 --- [http-nio-8090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [application/vnd.spring-boot.actuator.v2+json, application/vnd.spring-boot.actuator.v1+json, application/json], supported: []
+2020-06-27 15:03:26.564 DEBUG 24015 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 204 NO_CONTENT
+2020-06-27 15:03:26.565 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:26.566 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [0]
+2020-06-27 15:03:26.567 DEBUG 24015 --- [http-nio-8090-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:26.567 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]]
+2020-06-27 15:03:26.579 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:26.579 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [556]
+2020-06-27 15:03:26.580 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/loggers HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/loggers
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+accept-encoding: gzip, deflate, br
+accept: application/vnd.spring-boot.actuator.v2+json,application/vnd.spring-boot.actuator.v1+json,application/json
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+
+]
+2020-06-27 15:03:26.581 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/loggers
+2020-06-27 15:03:26.581 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:26.582 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:26.583 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:26.583 DEBUG 24015 --- [http-nio-8090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/actuator/loggers", parameters={}
+2020-06-27 15:03:26.583 DEBUG 24015 --- [http-nio-8090-exec-3] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'loggers'
+2020-06-27 15:03:26.585 DEBUG 24015 --- [http-nio-8090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v2+json', given [application/vnd.spring-boot.actuator.v2+json, application/vnd.spring-boot.actuator.v1+json, application/json] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2020-06-27 15:03:26.586 DEBUG 24015 --- [http-nio-8090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{levels=[OFF, ERROR, WARN, INFO, DEBUG, TRACE], loggers={ROOT=org.springframework.boot.actuate.loggi (truncated)...]
+2020-06-27 15:03:26.587 DEBUG 24015 --- [http-nio-8090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-06-27 15:03:26.588 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:26.589 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [0]
+2020-06-27 15:03:26.590 DEBUG 24015 --- [http-nio-8090-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:26.590 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]]
+2020-06-27 15:03:27.754 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:27.754 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [236]
+2020-06-27 15:03:27.755 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/health HTTP/1.1
+accept-encoding: gzip
+user-agent: ReactorNetty/0.9.8.RELEASE
+host: localhost:8090
+Accept: application/vnd.spring-boot.actuator.v2+json, application/vnd.spring-boot.actuator.v1+json, application/json
+
+]
+2020-06-27 15:03:27.755 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/health
+2020-06-27 15:03:27.755 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:27.755 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:27.756 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:27.756 DEBUG 24015 --- [http-nio-8090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/actuator/health", parameters={}
+2020-06-27 15:03:27.756 DEBUG 24015 --- [http-nio-8090-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2020-06-27 15:03:27.757 DEBUG 24015 --- [http-nio-8090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/vnd.spring-boot.actuator.v2+json', given [application/vnd.spring-boot.actuator.v2+json, application/vnd.spring-boot.actuator.v1+json, application/json] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2020-06-27 15:03:27.757 DEBUG 24015 --- [http-nio-8090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [org.springframework.boot.actuate.health.SystemHealth@3873a5d7]
+2020-06-27 15:03:27.758 DEBUG 24015 --- [http-nio-8090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-06-27 15:03:27.759 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:27.759 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [0]
+2020-06-27 15:03:27.759 DEBUG 24015 --- [http-nio-8090-exec-4] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:27.759 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]]
+2020-06-27 15:03:28.771 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:28.772 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [478]
+2020-06-27 15:03:28.772 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=-307200
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:28.772 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:28.773 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:28.773 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:28.773 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:28.773 DEBUG 24015 --- [http-nio-8090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:28.774 DEBUG 24015 --- [http-nio-8090-exec-5] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:28.775 DEBUG 24015 --- [http-nio-8090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:28.775 DEBUG 24015 --- [http-nio-8090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@2f4fd661]]
+2020-06-27 15:03:28.776 DEBUG 24015 --- [http-nio-8090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:28.776 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:28.776 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [0]
+2020-06-27 15:03:28.777 DEBUG 24015 --- [http-nio-8090-exec-5] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:28.777 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]]
+2020-06-27 15:03:29.770 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:29.770 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [477]
+2020-06-27 15:03:29.770 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=14992-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:29.771 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:29.771 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:29.771 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:29.772 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:29.772 DEBUG 24015 --- [http-nio-8090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:29.772 DEBUG 24015 --- [http-nio-8090-exec-6] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:29.773 DEBUG 24015 --- [http-nio-8090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:29.773 DEBUG 24015 --- [http-nio-8090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@d3f86f4]]
+2020-06-27 15:03:29.774 DEBUG 24015 --- [http-nio-8090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:29.775 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:29.775 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [0]
+2020-06-27 15:03:29.775 DEBUG 24015 --- [http-nio-8090-exec-6] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:29.775 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]]
+2020-06-27 15:03:30.771 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:30.771 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [477]
+2020-06-27 15:03:30.772 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=19032-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:30.772 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:30.772 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:30.772 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:30.773 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:30.773 DEBUG 24015 --- [http-nio-8090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:30.773 DEBUG 24015 --- [http-nio-8090-exec-7] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:30.775 DEBUG 24015 --- [http-nio-8090-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:30.775 DEBUG 24015 --- [http-nio-8090-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@7b7e1d21]]
+2020-06-27 15:03:30.776 DEBUG 24015 --- [http-nio-8090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:30.776 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:30.777 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [0]
+2020-06-27 15:03:30.777 DEBUG 24015 --- [http-nio-8090-exec-7] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:30.777 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]]
+2020-06-27 15:03:31.770 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:31.770 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [477]
+2020-06-27 15:03:31.771 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=23071-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:31.771 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:31.771 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:31.771 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:31.772 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:31.772 DEBUG 24015 --- [http-nio-8090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:31.772 DEBUG 24015 --- [http-nio-8090-exec-8] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:31.773 DEBUG 24015 --- [http-nio-8090-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:31.773 DEBUG 24015 --- [http-nio-8090-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@19b558df]]
+2020-06-27 15:03:31.774 DEBUG 24015 --- [http-nio-8090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:31.775 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:31.775 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [0]
+2020-06-27 15:03:31.776 DEBUG 24015 --- [http-nio-8090-exec-8] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:31.776 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]]
+2020-06-27 15:03:32.769 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:32.770 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [477]
+2020-06-27 15:03:32.770 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=27108-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:32.771 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:32.771 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:32.771 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:32.772 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:32.772 DEBUG 24015 --- [http-nio-8090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:32.772 DEBUG 24015 --- [http-nio-8090-exec-9] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:32.773 DEBUG 24015 --- [http-nio-8090-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:32.773 DEBUG 24015 --- [http-nio-8090-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@2a6db438]]
+2020-06-27 15:03:32.774 DEBUG 24015 --- [http-nio-8090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:32.775 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:32.775 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [0]
+2020-06-27 15:03:32.776 DEBUG 24015 --- [http-nio-8090-exec-9] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:32.776 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]]
+2020-06-27 15:03:33.770 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:33.771 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [477]
+2020-06-27 15:03:33.771 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=31149-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:33.771 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:33.771 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:33.771 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:33.772 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:33.772 DEBUG 24015 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:33.772 DEBUG 24015 --- [http-nio-8090-exec-10] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:33.773 DEBUG 24015 --- [http-nio-8090-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:33.773 DEBUG 24015 --- [http-nio-8090-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@47d5bb5]]
+2020-06-27 15:03:33.774 DEBUG 24015 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:33.774 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:33.775 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [0]
+2020-06-27 15:03:33.775 DEBUG 24015 --- [http-nio-8090-exec-10] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:33.775 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]]
+2020-06-27 15:03:34.772 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:34.773 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [477]
+2020-06-27 15:03:34.773 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=35198-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:34.773 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:34.773 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:34.774 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:34.774 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:34.774 DEBUG 24015 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:34.775 DEBUG 24015 --- [http-nio-8090-exec-2] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:34.775 DEBUG 24015 --- [http-nio-8090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:34.776 DEBUG 24015 --- [http-nio-8090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@3b59090d]]
+2020-06-27 15:03:34.777 DEBUG 24015 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:34.778 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:34.778 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [0]
+2020-06-27 15:03:34.779 DEBUG 24015 --- [http-nio-8090-exec-2] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:34.779 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]]
+2020-06-27 15:03:35.366 DEBUG 24015 --- [registrationTask1] s.n.www.protocol.http.HttpURLConnection  : sun.net.www.MessageHeader@1584ab87 pairs: {POST /instances HTTP/1.1: null}{Accept: application/json}{Content-Type: application/json}{User-Agent: Java/11.0.5}{Host: localhost:8080}{Connection: keep-alive}{Content-Length: 219}
+2020-06-27 15:03:35.369 DEBUG 24015 --- [registrationTask1] s.n.www.protocol.http.HttpURLConnection  : sun.net.www.MessageHeader@3ce8a6d37 pairs: {null: HTTP/1.1 201}{Location: http://localhost:8080/instances/1a257d42f2b7}{Content-Type: application/json}{Transfer-Encoding: chunked}{Date: Sat, 27 Jun 2020 07:03:35 GMT}{Keep-Alive: timeout=60}{Connection: keep-alive}
+2020-06-27 15:03:35.370 DEBUG 24015 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application refreshed itself as 1a257d42f2b7
+2020-06-27 15:03:35.771 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:35.771 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [477]
+2020-06-27 15:03:35.771 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=39240-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:35.772 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:35.772 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:35.772 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:35.772 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:35.772 DEBUG 24015 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:35.773 DEBUG 24015 --- [http-nio-8090-exec-1] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:35.773 DEBUG 24015 --- [http-nio-8090-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:35.774 DEBUG 24015 --- [http-nio-8090-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@242fe7a3]]
+2020-06-27 15:03:35.775 DEBUG 24015 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:35.775 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:35.776 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [0]
+2020-06-27 15:03:35.776 DEBUG 24015 --- [http-nio-8090-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:35.776 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]]
+2020-06-27 15:03:36.769 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:36.770 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [477]
+2020-06-27 15:03:36.770 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=44125-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:36.770 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:36.771 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:36.771 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:36.771 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:36.771 DEBUG 24015 --- [http-nio-8090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:36.772 DEBUG 24015 --- [http-nio-8090-exec-3] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:36.772 DEBUG 24015 --- [http-nio-8090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:36.772 DEBUG 24015 --- [http-nio-8090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@5ae2293a]]
+2020-06-27 15:03:36.773 DEBUG 24015 --- [http-nio-8090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:36.774 DEBUG 24015 --- [http-nio-8090-exec-3] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:36.774 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [0]
+2020-06-27 15:03:36.774 DEBUG 24015 --- [http-nio-8090-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:36.775 DEBUG 24015 --- [http-nio-8090-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]]
+2020-06-27 15:03:37.771 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:37.771 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [477]
+2020-06-27 15:03:37.771 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=48164-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:37.772 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:37.772 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:37.772 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:37.772 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:37.772 DEBUG 24015 --- [http-nio-8090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:37.772 DEBUG 24015 --- [http-nio-8090-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:37.773 DEBUG 24015 --- [http-nio-8090-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:37.773 DEBUG 24015 --- [http-nio-8090-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@52d4f99d]]
+2020-06-27 15:03:37.774 DEBUG 24015 --- [http-nio-8090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:37.776 DEBUG 24015 --- [http-nio-8090-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:37.777 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [0]
+2020-06-27 15:03:37.777 DEBUG 24015 --- [http-nio-8090-exec-4] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:37.777 DEBUG 24015 --- [http-nio-8090-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]]
+2020-06-27 15:03:38.774 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:38.774 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [477]
+2020-06-27 15:03:38.774 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=52201-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:38.774 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:38.774 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:38.775 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:38.775 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:38.775 DEBUG 24015 --- [http-nio-8090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:38.775 DEBUG 24015 --- [http-nio-8090-exec-5] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:38.776 DEBUG 24015 --- [http-nio-8090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:38.776 DEBUG 24015 --- [http-nio-8090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@21882df8]]
+2020-06-27 15:03:38.777 DEBUG 24015 --- [http-nio-8090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:38.777 DEBUG 24015 --- [http-nio-8090-exec-5] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:38.777 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [0]
+2020-06-27 15:03:38.778 DEBUG 24015 --- [http-nio-8090-exec-5] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:38.778 DEBUG 24015 --- [http-nio-8090-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]]
+2020-06-27 15:03:40.576 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:40.577 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [477]
+2020-06-27 15:03:40.577 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=56242-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:40.577 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:40.578 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:40.578 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:40.578 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:40.578 DEBUG 24015 --- [http-nio-8090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:40.579 DEBUG 24015 --- [http-nio-8090-exec-6] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:40.580 DEBUG 24015 --- [http-nio-8090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:40.580 DEBUG 24015 --- [http-nio-8090-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@42c57318]]
+2020-06-27 15:03:40.581 DEBUG 24015 --- [http-nio-8090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:40.581 DEBUG 24015 --- [http-nio-8090-exec-6] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:40.582 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [0]
+2020-06-27 15:03:40.582 DEBUG 24015 --- [http-nio-8090-exec-6] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:40.582 DEBUG 24015 --- [http-nio-8090-exec-6] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]]
+2020-06-27 15:03:41.802 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:41.802 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [477]
+2020-06-27 15:03:41.802 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=60281-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:41.803 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:41.803 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:41.803 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:41.803 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:41.803 DEBUG 24015 --- [http-nio-8090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:41.804 DEBUG 24015 --- [http-nio-8090-exec-7] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:41.805 DEBUG 24015 --- [http-nio-8090-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:41.805 DEBUG 24015 --- [http-nio-8090-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@7834a3c1]]
+2020-06-27 15:03:41.806 DEBUG 24015 --- [http-nio-8090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:41.806 DEBUG 24015 --- [http-nio-8090-exec-7] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:41.807 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [0]
+2020-06-27 15:03:41.807 DEBUG 24015 --- [http-nio-8090-exec-7] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:41.807 DEBUG 24015 --- [http-nio-8090-exec-7] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]]
+2020-06-27 15:03:43.278 DEBUG 24015 --- [RMI TCP Connection(2)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-127.0.0.1: (port 56706) connection closed
+2020-06-27 15:03:43.278 DEBUG 24015 --- [RMI TCP Connection(2)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-127.0.0.1: close connection
+2020-06-27 15:03:43.579 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:43.580 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [477]
+2020-06-27 15:03:43.580 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=64318-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:43.580 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:43.580 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:43.580 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:43.581 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:43.581 DEBUG 24015 --- [http-nio-8090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:43.581 DEBUG 24015 --- [http-nio-8090-exec-8] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:43.582 DEBUG 24015 --- [http-nio-8090-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:43.582 DEBUG 24015 --- [http-nio-8090-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@32e3f8ea]]
+2020-06-27 15:03:43.583 DEBUG 24015 --- [http-nio-8090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:43.583 DEBUG 24015 --- [http-nio-8090-exec-8] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:43.584 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [0]
+2020-06-27 15:03:43.584 DEBUG 24015 --- [http-nio-8090-exec-8] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:43.584 DEBUG 24015 --- [http-nio-8090-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]]
+2020-06-27 15:03:44.679 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:44.679 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [477]
+2020-06-27 15:03:44.679 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=68707-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:44.679 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:44.680 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:44.680 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:44.680 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:44.680 DEBUG 24015 --- [http-nio-8090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:44.681 DEBUG 24015 --- [http-nio-8090-exec-9] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:44.681 DEBUG 24015 --- [http-nio-8090-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:44.681 DEBUG 24015 --- [http-nio-8090-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@24aa4f05]]
+2020-06-27 15:03:44.682 DEBUG 24015 --- [http-nio-8090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:44.683 DEBUG 24015 --- [http-nio-8090-exec-9] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:44.683 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [0]
+2020-06-27 15:03:44.683 DEBUG 24015 --- [http-nio-8090-exec-9] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:44.683 DEBUG 24015 --- [http-nio-8090-exec-9] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]]
+2020-06-27 15:03:45.366 DEBUG 24015 --- [registrationTask1] s.n.www.protocol.http.HttpURLConnection  : sun.net.www.MessageHeader@49f5bab77 pairs: {POST /instances HTTP/1.1: null}{Accept: application/json}{Content-Type: application/json}{User-Agent: Java/11.0.5}{Host: localhost:8080}{Connection: keep-alive}{Content-Length: 219}
+2020-06-27 15:03:45.369 DEBUG 24015 --- [registrationTask1] s.n.www.protocol.http.HttpURLConnection  : sun.net.www.MessageHeader@ba569327 pairs: {null: HTTP/1.1 201}{Location: http://localhost:8080/instances/1a257d42f2b7}{Content-Type: application/json}{Transfer-Encoding: chunked}{Date: Sat, 27 Jun 2020 07:03:45 GMT}{Keep-Alive: timeout=60}{Connection: keep-alive}
+2020-06-27 15:03:45.369 DEBUG 24015 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application refreshed itself as 1a257d42f2b7
+2020-06-27 15:03:45.477 DEBUG 24015 --- [RMI TCP Connection(6)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(6)-127.0.0.1: (port 56706) connection closed
+2020-06-27 15:03:45.477 DEBUG 24015 --- [RMI TCP Connection(6)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(6)-127.0.0.1: close connection
+2020-06-27 15:03:45.796 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:45.796 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [477]
+2020-06-27 15:03:45.796 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=72746-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:45.796 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:45.796 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:45.797 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:45.797 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:45.797 DEBUG 24015 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:45.797 DEBUG 24015 --- [http-nio-8090-exec-10] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:45.798 DEBUG 24015 --- [http-nio-8090-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:45.798 DEBUG 24015 --- [http-nio-8090-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@abab54a]]
+2020-06-27 15:03:45.799 DEBUG 24015 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:45.800 DEBUG 24015 --- [http-nio-8090-exec-10] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read from buffer: [0]
+2020-06-27 15:03:45.800 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Read direct from socket: [0]
+2020-06-27 15:03:45.800 DEBUG 24015 --- [http-nio-8090-exec-10] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:45.800 DEBUG 24015 --- [http-nio-8090-exec-10] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@7ceed5ef:org.apache.tomcat.util.net.NioChannel@626bc85a:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56717]]
+2020-06-27 15:03:47.583 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:47.591 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [477]
+2020-06-27 15:03:47.591 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/logfile HTTP/1.1
+host: localhost:8090
+sec-fetch-mode: cors
+referer: http://localhost:8080/instances/1a257d42f2b7/logfile
+sec-fetch-site: same-origin
+accept-language: zh,zh-CN;q=0.9,en;q=0.8
+x-requested-with: XMLHttpRequest
+range: bytes=77985-
+accept-encoding: identity
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+sec-fetch-dest: empty
+Accept: text/plain, */*
+
+]
+2020-06-27 15:03:47.592 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/logfile
+2020-06-27 15:03:47.592 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:47.592 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:47.592 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:47.592 DEBUG 24015 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/actuator/logfile", parameters={}
+2020-06-27 15:03:47.592 DEBUG 24015 --- [http-nio-8090-exec-2] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2020-06-27 15:03:47.593 DEBUG 24015 --- [http-nio-8090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain;charset=UTF-8', given [text/plain, */*] and supported [text/plain;charset=UTF-8]
+2020-06-27 15:03:47.593 DEBUG 24015 --- [http-nio-8090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springframework.core.io.support.ResourceRegion@56f5151f]]
+2020-06-27 15:03:47.595 DEBUG 24015 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT
+2020-06-27 15:03:47.596 DEBUG 24015 --- [http-nio-8090-exec-2] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read from buffer: [0]
+2020-06-27 15:03:47.596 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Read direct from socket: [0]
+2020-06-27 15:03:47.596 DEBUG 24015 --- [http-nio-8090-exec-2] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:47.596 DEBUG 24015 --- [http-nio-8090-exec-2] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@35eed327:org.apache.tomcat.util.net.NioChannel@487d7565:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56714]]
+2020-06-27 15:03:47.751 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:47.751 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [236]
+2020-06-27 15:03:47.752 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received [GET /actuator/health HTTP/1.1
+accept-encoding: gzip
+user-agent: ReactorNetty/0.9.8.RELEASE
+host: localhost:8090
+Accept: application/vnd.spring-boot.actuator.v2+json, application/vnd.spring-boot.actuator.v1+json, application/json
+
+]
+2020-06-27 15:03:47.752 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /actuator/health
+2020-06-27 15:03:47.752 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2020-06-27 15:03:47.752 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2020-06-27 15:03:47.752 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2020-06-27 15:03:47.752 DEBUG 24015 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/actuator/health", parameters={}
+2020-06-27 15:03:47.753 DEBUG 24015 --- [http-nio-8090-exec-1] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2020-06-27 15:03:47.753 DEBUG 24015 --- [http-nio-8090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/vnd.spring-boot.actuator.v2+json', given [application/vnd.spring-boot.actuator.v2+json, application/vnd.spring-boot.actuator.v1+json, application/json] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2020-06-27 15:03:47.754 DEBUG 24015 --- [http-nio-8090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [org.springframework.boot.actuate.health.SystemHealth@49bd18a4]
+2020-06-27 15:03:47.755 DEBUG 24015 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-06-27 15:03:47.756 DEBUG 24015 --- [http-nio-8090-exec-1] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read from buffer: [0]
+2020-06-27 15:03:47.756 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Read direct from socket: [0]
+2020-06-27 15:03:47.756 DEBUG 24015 --- [http-nio-8090-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]], Status in: [OPEN_READ], State out: [OPEN]
+2020-06-27 15:03:47.757 DEBUG 24015 --- [http-nio-8090-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4061cd81:org.apache.tomcat.util.net.NioChannel@3033020:java.nio.channels.SocketChannel[connected local=/127.0.0.1:8090 remote=/127.0.0.1:56711]]
+2020-06-27 15:03:48.229 DEBUG 24015 --- [SpringContextShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@49cb9cb5, started on Sat Jun 27 15:03:13 CST 2020
+2020-06-27 15:03:48.229 DEBUG 24015 --- [SpringContextShutdownHook] o.s.c.e.PropertySourcesPropertyResolver  : Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-06-27 15:03:48.230 DEBUG 24015 --- [SpringContextShutdownHook] .b.a.c.r.RegistrationApplicationListener : Canceled registration task
+2020-06-27 15:03:48.231 DEBUG 24015 --- [SpringContextShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2020-06-27 15:03:48.232 DEBUG 24015 --- [SpringContextShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2020-06-27 15:03:48.232 DEBUG 24015 --- [SpringContextShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
+2020-06-27 15:03:48.255 DEBUG 24015 --- [SpringContextShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2020-06-27 15:03:48.257 DEBUG 24015 --- [SpringContextShutdownHook] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-06-27 15:03:48.257  INFO 24015 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-06-27 15:03:48.257  INFO 24015 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,16 @@
+
+management:
+  server:
+    port: 9080
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include:  '*'
+spring:
+  security:
+    user:
+      name: lengleng
+      password: 123456
