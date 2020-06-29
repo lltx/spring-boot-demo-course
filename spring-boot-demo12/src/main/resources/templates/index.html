@@ -1,0 +1,19 @@
+#include('header.html',title="文件头---")
+
+#(username)
+#(password??"無密碼")
+
+#for(user:userList)
+    #(user.name)
+#end
+
+
+#if(userList != null)
+ 用户不为空
+#end
+
+
+#date(date,'yyyyMMdd')
+
+
+#name()
