@@ -26,6 +26,10 @@
         <module>spring-boot-demo5</module>
         <module>spring-boot-demo6</module>
         <module>spring-boot-demo7</module>
+        <module>spring-boot-demo8</module>
+        <module>spring-boot-demo9</module>
+        <module>spring-boot-demo10</module>
+        <module>spring-boot-demo11</module>
     </modules>
 
     <build>

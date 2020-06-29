@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板引擎</title>
+</head>
+<body>
+
+<div th:include="header.html::header"></div>
+
+<div th:text="${k1}"></div>
+<div th:text="${user.username}"></div>
+
+<div th:each="user:${userList}">
+    <span th:text="${userStat.index+1}"/> <span th:text="${user.username}"/>
+</div>
+
+
+<div th:if="${userList}">
+    用户列表有值
+</div>
+<div th:unless="${userList}">
+    用户列表无值
+</div>
+
+<div th:text="${#dates.format(date,'yyyyMMdd')}"></div>
+</body>
+</html>

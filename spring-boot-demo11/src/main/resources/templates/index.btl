@@ -1,0 +1,28 @@
+<% include("header.btl",{'username':'beetl'}){}%>
+
+
+
+
+${username}
+
+
+${password!"无密码"}
+
+
+---------
+
+<% for(user in userList){%>
+
+${user.username}
+
+<%}%>
+
+
+<% if(userList == null){%>
+      当前userList 为空
+<%}else{%>
+当前userList 有值
+<%}%>
+
+
+${date,'yyyyMMdd'}
