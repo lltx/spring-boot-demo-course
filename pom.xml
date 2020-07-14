@@ -30,6 +30,12 @@
         <module>spring-boot-demo9</module>
         <module>spring-boot-demo10</module>
         <module>spring-boot-demo11</module>
+        <module>spring-boot-demo12</module>
+        <module>spring-boot-demo13</module>
+        <module>spring-boot-demo14</module>
+        <module>spring-boot-demo15</module>
+        <module>spring-boot-demo16</module>
+        <module>spring-boot-demo17</module>
     </modules>
 
     <build>

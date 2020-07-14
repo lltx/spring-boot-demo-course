@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
+
+
+mybatis:
+  # 指定 mapper xml 的文件地址
+  mapper-locations: classpath:mapper/**.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    com:
+      pig4cloud:
+        spring:
+          springbootdemo15:
+            mapper: debug
