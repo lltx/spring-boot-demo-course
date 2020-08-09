@@ -1,0 +1,2 @@
+beetlsql:
+  basePackage: com.pig4cloud.spring.beetlsql.dao
